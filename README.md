@@ -140,6 +140,7 @@ Barras pilares: R = 20 cm, t = 2 cm
 Peso: 1.423,65 toneladas 
 
 Por ultimo al calcular los desplazamientos nodales del ultimo modelo ultilizado (septima iteracion), el promedio de estos desplazamientos para los 121 nodos del reticulado fue: 3 mm aproximadamente.<br>
+También, el promedio de los FU de todas las barras antes de rediseñar para el caso 1 era de 0,02, mientras que para el caso 2 era de 0,37
 
 Podemos ver que el peso de nuestro modelo inicialmente era de 1.243,769 toneladas sin cumpir las condiciones de diseño para traccion y compresion. Pero a traves de las iteraciones y modificaciones en el modelo se llegó a un peso de 1.423,65 toneladas, lo cual es bastante cercano al peso inicial. Con esto podemos decir que gracias a los cambios realizados logramos un modelo de un peso similar, pero que cumple con las restricciones de modelo y con el material de acero optimizado
 
