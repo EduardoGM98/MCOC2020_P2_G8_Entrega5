@@ -42,8 +42,8 @@ Barras diagonales superiores: R = 20 cm, t = 1 cm
 
 Barras horizontales superiores y pilares: R = 25 cm, t = 3 cm
 
-Peso: 20.514,27 toneladas
-
+Peso: 20.514,27 toneladas <br>
+Se debe agregar que incluir los desplazamientos de los casi 120 nodos para cada iteracion no tiene sentido por lo que se dara un breve resumen alfinal de este informe con los desplazamientos finales.
 
 ### - Segunda iteración:
 
