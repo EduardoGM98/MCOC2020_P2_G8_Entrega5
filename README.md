@@ -3,10 +3,10 @@
 
   Se usó un diseño parecido al de la entrega 4 donde se “copió” el modelo de la imagen y se prolongó por los 230 metros que tenía el puente. Se debió partir y terminar el puente con barras horizontales de 4 metros y entremedio se colocaron barras de 6 y la altura de la punta de a estructura eran 13,5 metros más que la del tablero, quedando de la siguiente manera:
 
-*foto
+![alt text](https://github.com/EduardoGM98/MCOC2020_P2_G8_Entrega5/blob/main/IMAGEN.png)<br>
 
-*foto
-
+![alt text](https://github.com/EduardoGM98/MCOC2020_P2_G8_Entrega5/blob/main/IMAGEN2.png)
+![alt text](https://github.com/EduardoGM98/MCOC2020_P2_G8_Entrega5/blob/main/IMAGEN3.png)
 Las propiedades de las barras fueron las siguientes:
 
 Barras del tablero: R = 8 cm, t = 5 mm, E = 200*GPa, Densidad = 7600 kg/m3, Tension de fluencia = 420 MPa
@@ -18,7 +18,7 @@ Barras horizontales superiores: props3 = R = 8 cm, t = 3 cm, E = 200*GPa, Densid
 
 También se implementaron 3 pilares ubicados en lugares estratégicos del espacio (donde calzaran con los nodos del tablero del puente). Originalmente estos pilares tenían las mismas propiedades que las barras del tablero. Como era de esperarse ninguna barra cumplía con las condiciones de diseño, esto es (FU > 0.95 si se puede), (FU <=1), (Fn*ϕ >= Fu), (lamda < 300).
 
-*foto
+![alt text](https://github.com/EduardoGM98/MCOC2020_P2_G8_Entrega5/blob/main/IMAGEN4.png)<br>
 
 Peso del modelo original:   1243,769 toneladas. (Sin cumplir condiciones de diseño)
 
@@ -27,7 +27,7 @@ Peso del modelo original:   1243,769 toneladas. (Sin cumplir condiciones de dise
 Inicialmente el modelo fue estructurado con un tablero mostrado en la parte anterior, el cual era soportado por 3 grandes reticulados (con barras R = 8*cm, t = 5mm) que cumplian la funcion de pilares. Nos dimos cuenta que esto no era eficiente, ya que agregaba cerca de 300 barras a la estructura. 
 Para solucionar este problema retiramos estos reticulados y colocamos 6 pilares largos, más unas barras cruzadas de nodo del suelo a nodo del tablero, con propiedades R = 24 cm y t = 5 cm, el cual aumentó de manera consistente el peso a 30.781 ton, lo cual cumplía con las condiciones de diseño. 
 
-*foto
+![alt text](https://github.com/EduardoGM98/MCOC2020_P2_G8_Entrega5/blob/main/IMAGEN5.png)<br>
 
 Una vez alcanzado el cumplimiento de todas las restricciones para cada barra y para cada combinación de cargas, se procedió a ir bajando paulatinamente las medidas de las propiedades de todas las barras, a esto lo llamaremos iteraciones las cuales fueron las siguientes:
 
